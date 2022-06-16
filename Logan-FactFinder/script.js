@@ -30,7 +30,7 @@ function showFactOne(){
 	document.querySelector('div').style.borderColor = '#9BD53D'
 	document.querySelector('div').style.backgroundColor = '#5BC0EB'
 	document.querySelector('div').style.color = '#E55934'
-	document.getElementById('factdisplay').innerHTML = fact1 + "<img src='Images/Unicorn.jpg' alt='Unicorn'>";
+	document.getElementById('factdisplay').innerHTML = fact1 + "<img src='images/Unicorn.jpg' alt='Unicorn'>";
 }
 
 //show fact 2
@@ -43,7 +43,7 @@ function showFactTwo(){
 	document.querySelector('div').style.borderColor = '#1B2CC1'
 	document.querySelector('div').style.backgroundColor = '#ABD2FA'
 	document.querySelector('div').style.color = '#3D518C'
-	document.getElementById('factdisplay').innerHTML = fact2 + "<img src='Images/Frootloops.jpg' alt='Fruit Loops'>";
+	document.getElementById('factdisplay').innerHTML = fact2 + "<img src='images/Frootloops.jpg' alt='Fruit Loops'>";
 }
 
 //show fact 3
@@ -56,7 +56,7 @@ function showFactThree(){
 	document.querySelector('div').style.borderColor = '#CCC9E7'
 	document.querySelector('div').style.backgroundColor = '#6C6F7D'
 	document.querySelector('div').style.color = '#60463B'
-	document.getElementById('factdisplay').innerHTML = fact3 + "<img src='Images/EasterIsland.jpg' alt='Easter Island Heads'>";
+	document.getElementById('factdisplay').innerHTML = fact3 + "<img src='images/EasterIsland.jpg' alt='Easter Island Heads'>";
 }
 
 //show fact 4
@@ -69,7 +69,7 @@ function showFactFour(){
 	document.querySelector('div').style.borderColor = '#28112B'
 	document.querySelector('div').style.backgroundColor = '##8DAA91'
 	document.querySelector('div').style.color = '#453643';
-	document.getElementById('factdisplay').innerHTML = fact4 + "<img src='Images/BloodVessels.jpg' alt='Blood Vessels'>";
+	document.getElementById('factdisplay').innerHTML = fact4 + "<img src='images/BloodVessels.jpg' alt='Blood Vessels'>";
 }
 
 //show fact 5
@@ -82,5 +82,5 @@ function showFactFive(){
 	document.querySelector('div').style.borderColor = '#5D737E'
 	document.querySelector('div').style.backgroundColor = '#93A8AC'
 	document.querySelector('div').style.color = '#30292F';
-	document.getElementById('factdisplay').innerHTML = fact5 + "<img src='Images/Murderers.jpg' alt='Women walking side by side'>";
+	document.getElementById('factdisplay').innerHTML = fact5 + "<img src='images/Murderers.jpg' alt='Women walking side by side'>";
 }
