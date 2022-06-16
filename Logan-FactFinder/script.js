@@ -30,7 +30,7 @@ function showFactOne(){
 	document.querySelector('div').style.borderColor = '#9BD53D'
 	document.querySelector('div').style.backgroundColor = '#5BC0EB'
 	document.querySelector('div').style.color = '#E55934'
-	document.getElementById('factdisplay').innerHTML = fact1 + "<img src='images/Unicorn.jpg' alt='Unicorn'>";
+	document.getElementById('factdisplay').innerHTML = fact1 + <img src='images/Unicorn.jpg' alt='Unicorn'>;
 }
 
 //show fact 2
@@ -43,7 +43,7 @@ function showFactTwo(){
 	document.querySelector('div').style.borderColor = '#1B2CC1'
 	document.querySelector('div').style.backgroundColor = '#ABD2FA'
 	document.querySelector('div').style.color = '#3D518C'
-	document.getElementById('factdisplay').innerHTML = fact2 + "<img src='images/Frootloops.jpg' alt='Fruit Loops'>";
+	document.getElementById('factdisplay').innerHTML = fact2 + url(img src='images/Frootloops.jpg' alt='Fruit Loops');
 }
 
 //show fact 3
